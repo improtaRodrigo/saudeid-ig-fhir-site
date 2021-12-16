@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="patient-001"/>
+  <meta>
+    <profile value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "patient-001" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Patient-SaudeiD.html">Patient-SaudeiD</a></p></div><p><b>Birth Place</b>: 3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</p><p><b>identifier</b>: id: 15001</p><p><b>name</b>: Mariah Abigail Smith(OFFICIAL)</p><p><b>telecom</b>: ph: (555) 555-5555(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2019-01-01</p><p><b>address</b>: 3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td>Father <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0131.html">contactRole2</a>#C "Emergency Contact")</span></td><td>John Samuel Smith(OFFICIAL)</td><td>ph: (555) 555-5555(HOME)</td><td>3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</td><td>male</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+    <valueAddress>
+      <use value="home"/>
+      <type value="both"/>
+      <text value="3401 Civic Center Blvd., Philadelphia, PA 19104"/>
+      <line value="3401 Civic Center Blvd."/>
+      <city value="Philadelphia"/>
+      <state value="PA"/>
+      <postalCode value="19104"/>
+    </valueAddress>
+  </extension>
+  <identifier>
+    <system value="https://kf-api-dataservice.kidsfirstdrc.org/participants?study_id=SD_PREASA7S"/>
+    <value value="15001"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <text value="Mariah Abigail Smith"/>
+    <family value="Smith"/>
+    <given value="Mariah"/>
+    <given value="Abigail"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(555) 555-5555"/>
+    <use value="home"/>
+    <rank value="1"/>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="2019-01-01"/>
+  <address>
+    <use value="home"/>
+    <type value="both"/>
+    <text value="3401 Civic Center Blvd., Philadelphia, PA 19104"/>
+    <line value="3401 Civic Center Blvd."/>
+    <city value="Philadelphia"/>
+    <state value="PA"/>
+    <postalCode value="19104"/>
+  </address>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+        <code value="C"/>
+        <display value="Emergency Contact"/>
+      </coding>
+      <text value="Father"/>
+    </relationship>
+    <name>
+      <use value="official"/>
+      <text value="John Samuel Smith"/>
+      <family value="Smith"/>
+      <given value="John"/>
+      <given value="Samuel"/>
+    </name>
+    <telecom>
+      <system value="phone"/>
+      <value value="(555) 555-5555"/>
+      <use value="home"/>
+      <rank value="1"/>
+    </telecom>
+    <address>
+      <use value="home"/>
+      <type value="both"/>
+      <text value="3401 Civic Center Blvd., Philadelphia, PA 19104"/>
+      <line value="3401 Civic Center Blvd."/>
+      <city value="Philadelphia"/>
+      <state value="PA"/>
+      <postalCode value="19104"/>
+    </address>
+    <gender value="male"/>
+  </contact>
+</Patient>

@@ -1,0 +1,277 @@
+{
+  "package": "saudeid",
+  "version": "0.0.1",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-B2CpatientCode",
+      "title": "B2CpatientCode",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
+      "title": "biologicalSex",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverage",
+      "title": "coverage",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard",
+      "title": "coverageIdentityCard",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
+      "title": "deviceOperationalSystem",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
+      "title": "ethnicity",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
+      "title": "fathersName",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms",
+      "title": "flagUserTerms",
+      "types": [
+        "integer"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
+      "title": "idClienteFleury",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
+      "title": "idDocumentoFleury",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idStatus",
+      "title": "idStatus",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
+      "title": "idWorkstation",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
+      "title": "isB2B",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B2C",
+      "title": "isB2B2C",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
+      "title": "isB2C",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
+      "title": "lastUpdate",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
+      "title": "mothersName",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
+      "title": "occupation",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-optinAssinaturaEstaAtivo",
+      "title": "optinAssinaturaEstaAtivo",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-optinNoticiaEstaAtivo",
+      "title": "optinNoticiaEstaAtivo",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-optinVisitaEstaAtivo",
+      "title": "optinVisitaEstaAtivo",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
+      "title": "prontmedCode",
+      "types": [
+        "integer"
+      ]
+    }
+  ],
+  "profiles": {
+    "Patient": [
+      {
+        "url": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD",
+        "title": "Patient-SaudeiD"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-nationality": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-religion": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-B2CpatientCode": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-coverage": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-idStatus": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B2C": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-optinAssinaturaEstaAtivo": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-optinNoticiaEstaAtivo": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-optinVisitaEstaAtivo": [
+      "Patient"
+    ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode": [
+      "Patient"
+    ]
+  }
+}

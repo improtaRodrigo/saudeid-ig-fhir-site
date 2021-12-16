@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="saudeid"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Guia de implementacao da Saude iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
+</div></div>
+  </text>
+  <url value="http://saudeid.com.br/fhir/ImplementationGuide/saudeid"/>
+  <version value="0.0.1"/>
+  <name value="Guia de implementacao da Saude iD"/>
+  <title value="Guia de implementacao da Saude iD"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-12-15T18:32:29-02:00"/>
+  <publisher value="Saude iD"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://saudeid.com.br"/>
+    </telecom>
+  </contact>
+  <description value="O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="saudeid"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-binary"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input\cql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="templates\liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://saudeid.com.br/fhir/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patient-001"/>
+      </reference>
+      <name value="Example Patient - patient-001"/>
+      <exampleCanonical value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-B2CpatientCode"/>
+      </reference>
+      <name value="B2CpatientCode"/>
+      <description value="Identification code for patients originated from B2C."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-biologicalSex"/>
+      </reference>
+      <name value="biologicalSex"/>
+      <description value="Patient&#39;s biological sex."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-coverage"/>
+      </reference>
+      <name value="coverage"/>
+      <description value="Insurance plans, coverage extensions, pre-authorizations and/or pre-determinations that may be relevant in delivering the requested service."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-coverageIdentityCard"/>
+      </reference>
+      <name value="coverageIdentityCard"/>
+      <description value="Identification number used for associating patient with his/her insurance coverage."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-deviceOperationalSystem"/>
+      </reference>
+      <name value="deviceOperationalSystem"/>
+      <description value="Operational system installed in patient&#39;s device."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-ethnicity"/>
+      </reference>
+      <name value="ethnicity"/>
+      <description value="The patient&#39;s professed religious affiliations."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-fathersName"/>
+      </reference>
+      <name value="fathersName"/>
+      <description value="Full name of patient&#39;s father."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-flagUserTerms"/>
+      </reference>
+      <name value="flagUserTerms"/>
+      <description value="Indicates whether user agrees with User Terms or not."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-idClienteFleury"/>
+      </reference>
+      <name value="idClienteFleury"/>
+      <description value="Fleury client&#39;s id."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-idDocumentoFleury"/>
+      </reference>
+      <name value="idDocumentoFleury"/>
+      <description value="Fleury document&#39;s id."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-idStatus"/>
+      </reference>
+      <name value="idStatus"/>
+      <description value="Patient&#39;s status id."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-idWorkstation"/>
+      </reference>
+      <name value="idWorkstation"/>
+      <description value="Workstation&#39;s id."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-isB2B"/>
+      </reference>
+      <name value="isB2B"/>
+      <description value="Flag indicating if the patient is B2B."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-isB2B2C"/>
+      </reference>
+      <name value="isB2B2C"/>
+      <description value="xxxxxxxxxxxxxxxxx"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-isB2C"/>
+      </reference>
+      <name value="isB2C"/>
+      <description value="Flag indicating if the patient is B2C."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-lastUpdate"/>
+      </reference>
+      <name value="lastUpdate"/>
+      <description value="Date and time when record was updated."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-mothersName"/>
+      </reference>
+      <name value="mothersName"/>
+      <description value="Full name of patient&#39;s mother."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-occupation"/>
+      </reference>
+      <name value="occupation"/>
+      <description value="Information about a person&#39;s work and volunteer positions to support patient care, population health and public health activities."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-optinAssinaturaEstaAtivo"/>
+      </reference>
+      <name value="optinAssinaturaEstaAtivo"/>
+      <description value="xxxxxxxxxxxxxxxxx"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-optinNoticiaEstaAtivo"/>
+      </reference>
+      <name value="optinNoticiaEstaAtivo"/>
+      <description value="xxxxxxxxxxxxxxxxx"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-optinVisitaEstaAtivo"/>
+      </reference>
+      <name value="optinVisitaEstaAtivo"/>
+      <description value="xxxxxxxxxxxxxxxxx"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-prontmedCode"/>
+      </reference>
+      <name value="prontmedCode"/>
+      <description value="Numerical identification for Prontmed patients."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Patient-SaudeiD"/>
+      </reference>
+      <name value="Patient-SaudeiD"/>
+      <description value="Perfil de paciente da Saúde iD."/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="background.html"/>
+        <title value="Background"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Useful Downloads"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="general-guidance.html"/>
+        <title value="General guidance"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="history.html"/>
+        <title value="History of changes"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="artifacts.html"/>
+        <title value="FHIR artifacts"/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="profiles.html"/>
+          <title value="Profiles and Extensions"/>
+          <generation value="html"/>
+        </page>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input\history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

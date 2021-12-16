@@ -1,0 +1,153 @@
+﻿Guia de implementacao da Saude iD : Validation Results
+=========================================
+
+err = 0, warn = 46, info = 48
+IG Publisher Version: 1.1.90 Out of date - current version is ?pub-ver-1?
+Generated Wed Dec 15 18:33:46 BRST 2021. FHIR version 4.0.1 for saudeid#0.0.1 (canonical = http://saudeid.com.br/fhir)
+ Build Errors : 0 / 1 / 0
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\examples\patient-example : 0 / 0 / 2
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-B2CpatientCode : 0 / 1 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-biologicalSex : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-coverage : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-coverageIdentityCard : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-deviceOperationalSystem : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-ethnicity : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-fathersName : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-flagUserTerms : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-idClienteFleury : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-idDocumentoFleury : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-idStatus : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-idWorkstation : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-isB2B : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-isB2B2C : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-isB2C : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-lastUpdate : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-mothersName : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-occupation : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-optinAssinaturaEstaAtivo : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-optinNoticiaEstaAtivo : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-optinVisitaEstaAtivo : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-extension-patient-prontmedCode : 0 / 2 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\structuredefinition-patient-saudeid : 0 / 1 / 3
+ C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\saudeid-ig : 0 / 1 / 3
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/patient-001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== input\examples\patient-example.json ==
+== input\resources\structuredefinition-extension-patient-B2CpatientCode.json ==
+INFORMATION: StructureDefinition/patient-B2CpatientCode: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-B2CpatientCode: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-B2CpatientCode'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-biologicalSex.json ==
+WARNING: StructureDefinition/patient-biologicalSex: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-biologicalSex: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-biologicalSex: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-coverage.json ==
+WARNING: StructureDefinition/patient-coverage: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-coverage: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-coverage: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverage'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-coverageIdentityCard.json ==
+WARNING: StructureDefinition/patient-coverageIdentityCard: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-coverageIdentityCard: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-coverageIdentityCard: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-deviceOperationalSystem.json ==
+WARNING: StructureDefinition/patient-deviceOperationalSystem: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-deviceOperationalSystem: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-deviceOperationalSystem: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-ethnicity.json ==
+WARNING: StructureDefinition/patient-ethnicity: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-ethnicity: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-ethnicity: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-fathersName.json ==
+WARNING: StructureDefinition/patient-fathersName: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-fathersName: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-fathersName: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-flagUserTerms.json ==
+WARNING: StructureDefinition/patient-flagUserTerms: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-flagUserTerms: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-flagUserTerms: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-idClienteFleury.json ==
+WARNING: StructureDefinition/patient-idClienteFleury: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-idClienteFleury: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-idClienteFleury: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-idDocumentoFleury.json ==
+WARNING: StructureDefinition/patient-idDocumentoFleury: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-idDocumentoFleury: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-idDocumentoFleury: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-idStatus.json ==
+WARNING: StructureDefinition/patient-idStatus: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-idStatus: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-idStatus: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-idStatus'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-idWorkstation.json ==
+WARNING: StructureDefinition/patient-idWorkstation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-idWorkstation: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-idWorkstation: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-isB2B.json ==
+WARNING: StructureDefinition/patient-isB2B: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-isB2B: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-isB2B: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-isB2B2C.json ==
+WARNING: StructureDefinition/patient-isB2B2C: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-isB2B2C: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-isB2B2C: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B2C'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-isB2C.json ==
+WARNING: StructureDefinition/patient-isB2C: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-isB2C: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-isB2C: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-lastUpdate.json ==
+WARNING: StructureDefinition/patient-lastUpdate: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-lastUpdate: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-lastUpdate: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-mothersName.json ==
+WARNING: StructureDefinition/patient-mothersName: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-mothersName: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-mothersName: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-occupation.json ==
+WARNING: StructureDefinition/patient-occupation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-occupation: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-occupation: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-occupation'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-optinAssinaturaEstaAtivo.json ==
+WARNING: StructureDefinition/patient-optinAssinaturaEstaAtivo: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-optinAssinaturaEstaAtivo: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-optinAssinaturaEstaAtivo: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-optinAssinaturaEstaAtivo'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-optinNoticiaEstaAtivo.json ==
+WARNING: StructureDefinition/patient-optinNoticiaEstaAtivo: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-optinNoticiaEstaAtivo: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-optinNoticiaEstaAtivo: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-optinNoticiaEstaAtivo'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-optinVisitaEstaAtivo.json ==
+WARNING: StructureDefinition/patient-optinVisitaEstaAtivo: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-optinVisitaEstaAtivo: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-optinVisitaEstaAtivo: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-optinVisitaEstaAtivo'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-extension-patient-prontmedCode.json ==
+WARNING: StructureDefinition/patient-prontmedCode: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/patient-prontmedCode: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/patient-prontmedCode: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode'): The Implementation Guide contains no examples for this extension
+== input\resources\structuredefinition-patient-saudeid.json ==
+WARNING: StructureDefinition/Patient-SaudeiD: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/Patient-SaudeiD: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/Patient-SaudeiD: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\saudeid-ig.xml ==
+WARNING: ImplementationGuide/saudeid: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: ImplementationGuide/saudeid: ImplementationGuide.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ImplementationGuide/saudeid: ImplementationGuide.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
