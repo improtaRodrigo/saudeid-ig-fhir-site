@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Guia de implementacao da Saude iD"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-17T17:03:11-02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-17T20:23:40-02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Saude iD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -371,7 +371,8 @@
          fhir:link <http://saudeid.com.br/fhir/Patient/patient-001>;
          fhir:Reference.reference [ fhir:value "Patient/patient-001" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - patient-001" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "patient-example" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemplo de paciente da Saúde iD." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD";
          fhir:link <http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD>
@@ -384,11 +385,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-biologicalSex" ]
+         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-agreedWithUserTerms" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "biologicalSex" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient's biological sex." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "agreedWithUserTerms" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates whether user had agrees with User Terms or not." ]
      ], [
        fhir:index 5;
        fhir:Element.extension [
@@ -397,26 +398,13 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-coverage>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-coverage" ]
+         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-biologicalSex" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "coverage" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Insurance plans, coverage extensions, pre-authorizations and/or pre-determinations that may be relevant in delivering the requested service." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "biologicalSex" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient's biological sex." ]
      ], [
        fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-coverageIdentityCard" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "coverageIdentityCard" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identification number used for associating patient with his/her insurance coverage." ]
-     ], [
-       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -429,7 +417,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "deviceOperationalSystem" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Operational system installed in patient's device." ]
      ], [
-       fhir:index 8;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -442,7 +430,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ethnicity" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The patient's professed religious affiliations." ]
      ], [
-       fhir:index 9;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -455,20 +443,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "fathersName" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Full name of patient's father." ]
      ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-flagUserTerms" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "flagUserTerms" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates whether user agrees with User Terms or not." ]
-     ], [
-       fhir:index 11;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -481,7 +456,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "idClienteFleury" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Fleury client's id." ]
      ], [
-       fhir:index 12;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -494,7 +469,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "idDocumentoFleury" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Fleury document's id." ]
      ], [
-       fhir:index 13;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -507,7 +482,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "idWorkstation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Workstation's id." ]
      ], [
-       fhir:index 14;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -520,7 +495,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "isB2B" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Flag indicating if the patient is B2B." ]
      ], [
-       fhir:index 15;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -533,7 +508,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "isB2C" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Flag indicating if the patient is B2C." ]
      ], [
-       fhir:index 16;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -544,9 +519,9 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-lastUpdate" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "lastUpdate" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Date and time when record was updated." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Date and time of the last time some information of the patient was updated." ]
      ], [
-       fhir:index 17;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -559,7 +534,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "mothersName" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Full name of patient's mother." ]
      ], [
-       fhir:index 18;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -572,7 +547,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "occupation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Information about a person's work and volunteer positions to support patient care, population health and public health activities." ]
      ], [
-       fhir:index 19;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

@@ -21,25 +21,18 @@
     "name": "Patient-SaudeiD"
   },
   {
+    "id": "patient-agreedWithUserTerms",
+    "type": "StructureDefinition",
+    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
+    "version": "0.0.2",
+    "name": "agreedWithUserTerms"
+  },
+  {
     "id": "patient-biologicalSex",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
     "version": "0.0.2",
     "name": "biologicalSex"
-  },
-  {
-    "id": "patient-coverage",
-    "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverage",
-    "version": "0.0.2",
-    "name": "coverage"
-  },
-  {
-    "id": "patient-coverageIdentityCard",
-    "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard",
-    "version": "0.0.2",
-    "name": "coverageIdentityCard"
   },
   {
     "id": "patient-deviceOperationalSystem",
@@ -61,13 +54,6 @@
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
     "version": "0.0.2",
     "name": "fathersName"
-  },
-  {
-    "id": "patient-flagUserTerms",
-    "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms",
-    "version": "0.0.2",
-    "name": "flagUserTerms"
   },
   {
     "id": "patient-idClienteFleury",

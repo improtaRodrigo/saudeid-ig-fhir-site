@@ -19,9 +19,7 @@
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverage']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverage': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate']) &lt;= 1">extension with URL = 'http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate': maximum cardinality of 'extension' is 1</sch:assert>
@@ -72,10 +70,6 @@
     <sch:rule context="f:Patient/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>

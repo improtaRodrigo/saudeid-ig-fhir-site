@@ -52,15 +52,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Full name of patient's father.","Full name of patient's father.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","coverage","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-coverage]]} {[]}
-","Associated insurance coverage.","Insurance plans, coverage extensions, pre-authorizations and/or pre-determinations that may be relevant in delivering the requested service.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","coverageIdentityCard","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard]]} {[]}
-","Insurance card number.","Identification number used for associating patient with his/her insurance coverage.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","flagUserTerms","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms]]} {[]}
+"Patient.extension","agreedWithUserTerms","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms]]} {[]}
 ","Indicates whether user agrees with User Terms or not.","Indicates whether user agrees with User Terms or not.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -73,7 +65,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","lastUpdate","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate]]} {[]}
-","Date and time when record was updated.","Date and time when record was updated.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Date and time of the last time some information of the patient was updated.","Date and time of the last time some information of the patient was updated.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension","isB2C","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C]]} {[]}

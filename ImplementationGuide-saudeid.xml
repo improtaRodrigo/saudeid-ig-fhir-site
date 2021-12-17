@@ -12,7 +12,7 @@
   <title value="Guia de implementacao da Saude iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-17T17:03:11-02:00"/>
+  <date value="2021-12-17T20:23:40-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -252,8 +252,19 @@
       <reference>
         <reference value="Patient/patient-001"/>
       </reference>
-      <name value="Example Patient - patient-001"/>
+      <name value="patient-example"/>
+      <description value="Exemplo de paciente da Saúde iD."/>
       <exampleCanonical value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient-agreedWithUserTerms"/>
+      </reference>
+      <name value="agreedWithUserTerms"/>
+      <description value="Indicates whether user had agrees with User Terms or not."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -264,26 +275,6 @@
       </reference>
       <name value="biologicalSex"/>
       <description value="Patient&#39;s biological sex."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-coverage"/>
-      </reference>
-      <name value="coverage"/>
-      <description value="Insurance plans, coverage extensions, pre-authorizations and/or pre-determinations that may be relevant in delivering the requested service."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-coverageIdentityCard"/>
-      </reference>
-      <name value="coverageIdentityCard"/>
-      <description value="Identification number used for associating patient with his/her insurance coverage."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -314,16 +305,6 @@
       </reference>
       <name value="fathersName"/>
       <description value="Full name of patient&#39;s father."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-flagUserTerms"/>
-      </reference>
-      <name value="flagUserTerms"/>
-      <description value="Indicates whether user agrees with User Terms or not."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -383,7 +364,7 @@
         <reference value="StructureDefinition/patient-lastUpdate"/>
       </reference>
       <name value="lastUpdate"/>
-      <description value="Date and time when record was updated."/>
+      <description value="Date and time of the last time some information of the patient was updated."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -17,63 +17,113 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"patient-001\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Patient-SaudeiD.html\">Patient-SaudeiD</a></p></div><p><b>Birth Place</b>: 3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</p><p><b>identifier</b>: id: 15001</p><p><b>name</b>: Mariah Abigail Smith(OFFICIAL)</p><p><b>telecom</b>: ph: (555) 555-5555(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2019-01-01</p><p><b>address</b>: 3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td>Father <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v2-0131.html\">contactRole2</a>#C \"Emergency Contact\")</span></td><td>John Samuel Smith(OFFICIAL)</td><td>ph: (555) 555-5555(HOME)</td><td>3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</td><td>male</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"patient-001\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Patient-SaudeiD.html\">Patient-SaudeiD</a></p></div><p><b>Birth Place</b>: Avenida Duque de Caxias, 446, Quadra 4, Palmas, TO 31713533</p><p><b>occupation</b>: 212405</p><p><b>biologicalSex</b>: male</p><p><b>deviceOperationalSystem</b>: Android</p><p><b>ethnicity</b>: Caucasiano</p><p><b>fathersName</b>: Bruno Conceição da Silva</p><p><b>agreedWithUserTerms</b>: true</p><p><b>idClienteFleury</b>: 123456789</p><p><b>idDocumentoFleury</b>: 456789012</p><p><b>idWorkstation</b>: 789012345</p><p><b>isB2B</b>: true</p><p><b>isB2C</b>: false</p><p><b>lastUpdate</b>: 2021-12-10T12:37:41-03:00</p><p><b>mothersName</b>: Maria Souza Amaral</p><p><b>prontmedCode</b>: 123456</p><p><b>identifier</b>: id: 001</p><p><b>name</b>: Pedro Amaral da Silva(OFFICIAL)</p><p><b>telecom</b>: ph: (72) 68140-9748(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-04-15</p><p><b>address</b>: Rua São Pedro, 4233, Casa 2, Jequié, BA 76980224(HOME)</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td>Brother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v2-0131.html\">contactRole2</a>#C \"Emergency Contact\")</span></td><td>José Amaral da Silva(OFFICIAL)</td><td>ph: (27) 99770-4704(HOME)</td><td>Rua da Paz, 8511, Ariquemes, RO 59821192(HOME)</td><td>male</td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/patient-birthPlace" ];
      fhir:Extension.valueAddress [
-       fhir:Address.use [ fhir:value "home" ];
-       fhir:Address.type [ fhir:value "both" ];
-       fhir:Address.text [ fhir:value "3401 Civic Center Blvd., Philadelphia, PA 19104" ];
+       fhir:Address.text [ fhir:value "Avenida Duque de Caxias, 446, Quadra 4, Palmas, TO 31713533" ];
        fhir:Address.line [
-         fhir:value "3401 Civic Center Blvd.";
+         fhir:value "Avenida Duque de Caxias, 446, Quadra 4";
          fhir:index 0
        ];
-       fhir:Address.city [ fhir:value "Philadelphia" ];
-       fhir:Address.state [ fhir:value "PA" ];
-       fhir:Address.postalCode [ fhir:value "19104" ]
+       fhir:Address.city [ fhir:value "Palmas" ];
+       fhir:Address.state [ fhir:value "TO" ];
+       fhir:Address.postalCode [ fhir:value "31713533" ]
      ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation" ];
+     fhir:Extension.valueCode [ fhir:value "212405" ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex" ];
+     fhir:Extension.valueString [ fhir:value "male" ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem" ];
+     fhir:Extension.valueString [ fhir:value "Android" ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity" ];
+     fhir:Extension.valueString [ fhir:value "Caucasiano" ]
+  ], [
+     fhir:index 5;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName" ];
+     fhir:Extension.valueString [ fhir:value "Bruno Conceição da Silva" ]
+  ], [
+     fhir:index 6;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ], [
+     fhir:index 7;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury" ];
+     fhir:Extension.valueString [ fhir:value "123456789" ]
+  ], [
+     fhir:index 8;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury" ];
+     fhir:Extension.valueString [ fhir:value "456789012" ]
+  ], [
+     fhir:index 9;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation" ];
+     fhir:Extension.valueString [ fhir:value "789012345" ]
+  ], [
+     fhir:index 10;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ], [
+     fhir:index 11;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 12;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate" ];
+     fhir:Extension.valueDateTime [ fhir:value "2021-12-10T12:37:41-03:00"^^xsd:dateTime ]
+  ], [
+     fhir:index 13;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName" ];
+     fhir:Extension.valueString [ fhir:value "Maria Souza Amaral" ]
+  ], [
+     fhir:index 14;
+     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode" ];
+     fhir:Extension.valueInteger [ fhir:value "123456"^^xsd:integer ]
   ];
   fhir:Patient.identifier [
      fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://kf-api-dataservice.kidsfirstdrc.org/participants?study_id=SD_PREASA7S" ];
-     fhir:Identifier.value [ fhir:value "15001" ]
+     fhir:Identifier.value [ fhir:value "001" ]
   ];
   fhir:Patient.name [
      fhir:index 0;
      fhir:HumanName.use [ fhir:value "official" ];
-     fhir:HumanName.text [ fhir:value "Mariah Abigail Smith" ];
-     fhir:HumanName.family [ fhir:value "Smith" ];
+     fhir:HumanName.text [ fhir:value "Pedro Amaral da Silva" ];
+     fhir:HumanName.family [ fhir:value "Amaral da Silva" ];
      fhir:HumanName.given [
-       fhir:value "Mariah";
+       fhir:value "Pedro";
        fhir:index 0
-     ], [
-       fhir:value "Abigail";
-       fhir:index 1
      ]
   ];
   fhir:Patient.telecom [
      fhir:index 0;
      fhir:ContactPoint.system [ fhir:value "phone" ];
-     fhir:ContactPoint.value [ fhir:value "(555) 555-5555" ];
+     fhir:ContactPoint.value [ fhir:value "(72) 68140-9748" ];
      fhir:ContactPoint.use [ fhir:value "home" ];
      fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
   ];
-  fhir:Patient.gender [ fhir:value "female"];
-  fhir:Patient.birthDate [ fhir:value "2019-01-01"^^xsd:date];
+  fhir:Patient.gender [ fhir:value "male"];
+  fhir:Patient.birthDate [ fhir:value "1984-04-15"^^xsd:date];
   fhir:Patient.address [
      fhir:index 0;
      fhir:Address.use [ fhir:value "home" ];
      fhir:Address.type [ fhir:value "both" ];
-     fhir:Address.text [ fhir:value "3401 Civic Center Blvd., Philadelphia, PA 19104" ];
+     fhir:Address.text [ fhir:value "Rua São Pedro, 4233, Casa 2, Jequié, BA 76980224" ];
      fhir:Address.line [
-       fhir:value "3401 Civic Center Blvd.";
+       fhir:value "Rua São Pedro, 4233, Casa 2";
        fhir:index 0
      ];
-     fhir:Address.city [ fhir:value "Philadelphia" ];
-     fhir:Address.state [ fhir:value "PA" ];
-     fhir:Address.postalCode [ fhir:value "19104" ]
+     fhir:Address.city [ fhir:value "Jequié" ];
+     fhir:Address.state [ fhir:value "BA" ];
+     fhir:Address.postalCode [ fhir:value "76980224" ]
   ];
   fhir:Patient.contact [
      fhir:index 0;
@@ -85,38 +135,35 @@
          fhir:Coding.code [ fhir:value "C" ];
          fhir:Coding.display [ fhir:value "Emergency Contact" ]
        ];
-       fhir:CodeableConcept.text [ fhir:value "Father" ]
+       fhir:CodeableConcept.text [ fhir:value "Brother" ]
      ];
      fhir:Patient.contact.name [
        fhir:HumanName.use [ fhir:value "official" ];
-       fhir:HumanName.text [ fhir:value "John Samuel Smith" ];
-       fhir:HumanName.family [ fhir:value "Smith" ];
+       fhir:HumanName.text [ fhir:value "José Amaral da Silva" ];
+       fhir:HumanName.family [ fhir:value "Amaral da Silva" ];
        fhir:HumanName.given [
-         fhir:value "John";
+         fhir:value "José";
          fhir:index 0
-       ], [
-         fhir:value "Samuel";
-         fhir:index 1
        ]
      ];
      fhir:Patient.contact.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "phone" ];
-       fhir:ContactPoint.value [ fhir:value "(555) 555-5555" ];
+       fhir:ContactPoint.value [ fhir:value "(27) 99770-4704" ];
        fhir:ContactPoint.use [ fhir:value "home" ];
        fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
      ];
      fhir:Patient.contact.address [
        fhir:Address.use [ fhir:value "home" ];
        fhir:Address.type [ fhir:value "both" ];
-       fhir:Address.text [ fhir:value "3401 Civic Center Blvd., Philadelphia, PA 19104" ];
+       fhir:Address.text [ fhir:value "Rua da Paz, 8511, Ariquemes, RO 59821192" ];
        fhir:Address.line [
-         fhir:value "3401 Civic Center Blvd.";
+         fhir:value "Rua da Paz, 8511";
          fhir:index 0
        ];
-       fhir:Address.city [ fhir:value "Philadelphia" ];
-       fhir:Address.state [ fhir:value "PA" ];
-       fhir:Address.postalCode [ fhir:value "19104" ]
+       fhir:Address.city [ fhir:value "Ariquemes" ];
+       fhir:Address.state [ fhir:value "RO" ];
+       fhir:Address.postalCode [ fhir:value "59821192" ]
      ];
      fhir:Patient.contact.gender [ fhir:value "male" ]
   ] .

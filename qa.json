@@ -3,10 +3,10 @@
   "name": "Guia de implementacao da Saude iD",
   "package-id": "saudeid",
   "ig-ver": "0.0.2",
-  "date": "Fri, 17 Dec, 2021 17:03:11 -0200",
+  "date": "Fri, 17 Dec, 2021 20:23:40 -0200",
   "errs": 0,
-  "warnings": 37,
-  "hints": 43,
+  "warnings": 18,
+  "hints": 39,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

@@ -5,22 +5,15 @@
   "jurisdiction": "001",
   "extensions": [
     {
+      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
+      "title": "agreedWithUserTerms",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
       "title": "biologicalSex",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverage",
-      "title": "coverage",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard",
-      "title": "coverageIdentityCard",
       "types": [
         "string"
       ]
@@ -44,13 +37,6 @@
       "title": "fathersName",
       "types": [
         "string"
-      ]
-    },
-    {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms",
-      "title": "flagUserTerms",
-      "types": [
-        "integer"
       ]
     },
     {
@@ -165,13 +151,10 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms": [
+      "Patient"
+    ],
     "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex": [
-      "Patient"
-    ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-coverage": [
-      "Patient"
-    ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-coverageIdentityCard": [
       "Patient"
     ],
     "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem": [
@@ -181,9 +164,6 @@
       "Patient"
     ],
     "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName": [
-      "Patient"
-    ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-flagUserTerms": [
       "Patient"
     ],
     "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury": [
