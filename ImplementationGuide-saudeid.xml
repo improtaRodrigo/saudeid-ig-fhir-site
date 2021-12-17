@@ -7,12 +7,12 @@
 </div></div>
   </text>
   <url value="http://saudeid.com.br/fhir/ImplementationGuide/saudeid"/>
-  <version value="0.0.1"/>
+  <version value="0.0.2"/>
   <name value="Guia de implementacao da Saude iD"/>
   <title value="Guia de implementacao da Saude iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-15T18:32:29-02:00"/>
+  <date value="2021-12-17T17:03:11-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -217,6 +217,36 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Patient-SaudeiD"/>
+      </reference>
+      <name value="Patient-SaudeiD"/>
+      <description value="Perfil de paciente da Saúde iD."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CBO"/>
+      </reference>
+      <name value="Classificação Brasileira de Ocupações - CBO"/>
+      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/CBO-1.0"/>
+      </reference>
+      <name value="Classificação Brasileira de Ocupações - CBO"/>
+      <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -224,16 +254,6 @@
       </reference>
       <name value="Example Patient - patient-001"/>
       <exampleCanonical value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-B2CpatientCode"/>
-      </reference>
-      <name value="B2CpatientCode"/>
-      <description value="Identification code for patients originated from B2C."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -330,16 +350,6 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-idStatus"/>
-      </reference>
-      <name value="idStatus"/>
-      <description value="Patient&#39;s status id."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/patient-idWorkstation"/>
       </reference>
       <name value="idWorkstation"/>
@@ -354,16 +364,6 @@
       </reference>
       <name value="isB2B"/>
       <description value="Flag indicating if the patient is B2B."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-isB2B2C"/>
-      </reference>
-      <name value="isB2B2C"/>
-      <description value="xxxxxxxxxxxxxxxxx"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -410,87 +410,42 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/patient-optinAssinaturaEstaAtivo"/>
-      </reference>
-      <name value="optinAssinaturaEstaAtivo"/>
-      <description value="xxxxxxxxxxxxxxxxx"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-optinNoticiaEstaAtivo"/>
-      </reference>
-      <name value="optinNoticiaEstaAtivo"/>
-      <description value="xxxxxxxxxxxxxxxxx"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/patient-optinVisitaEstaAtivo"/>
-      </reference>
-      <name value="optinVisitaEstaAtivo"/>
-      <description value="xxxxxxxxxxxxxxxxx"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/patient-prontmedCode"/>
       </reference>
       <name value="prontmedCode"/>
       <description value="Numerical identification for Prontmed patients."/>
     </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Patient-SaudeiD"/>
-      </reference>
-      <name value="Patient-SaudeiD"/>
-      <description value="Perfil de paciente da Saúde iD."/>
-    </resource>
     <page>
       <nameUrl value="toc.html"/>
-      <title value="Table of Contents"/>
+      <title value="Tabela de conteúdos"/>
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Home"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
+        <title value="Início"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
+        <title value="Downloads"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="general-guidance.html"/>
-        <title value="General guidance"/>
+        <title value="Orientações gerais"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="history.html"/>
-        <title value="History of changes"/>
+        <title value="Histórico de mudanças"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="artifacts.html"/>
-        <title value="FHIR artifacts"/>
+        <title value="Artefatos FHIR"/>
         <generation value="html"/>
         <page>
           <nameUrl value="profiles.html"/>
-          <title value="Profiles and Extensions"/>
+          <title value="Perfis e extensões"/>
           <generation value="html"/>
         </page>
       </page>

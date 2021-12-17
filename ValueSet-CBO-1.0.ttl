@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://saudeid.com.br/fhir/ValueSet/CBO-1.0> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CBO-1.0"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2020-03-12T10:22:07.223-03:00"^^xsd:dateTime ]
+  ];
+  fhir:Resource.language [ fhir:value "pt-BR"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CBO.html\"><code>http://saudeid.com.br/fhir/CodeSystem/CBO</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://saudeid.com.br/fhir/ValueSet/CBO-1.0"];
+  fhir:ValueSet.version [ fhir:value "0.0.2"];
+  fhir:ValueSet.name [ fhir:value "Classificação Brasileira de Ocupações - CBO"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2020-03-12T13:22:05.8261152+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Saude iD"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://saudeid.com.br" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Classifica as profissões do mercado de trabalho brasileiro."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://saudeid.com.br/fhir/CodeSystem/CBO" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "*" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://saudeid.com.br/fhir/ValueSet/CBO-1.0.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

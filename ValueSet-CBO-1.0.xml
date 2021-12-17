@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CBO-1.0"/>
+  <meta>
+    <lastUpdated value="2020-03-12T10:22:07.223-03:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include all codes defined in <a href="CodeSystem-CBO.html"><code>http://saudeid.com.br/fhir/CodeSystem/CBO</code></a></li></ul></div>
+  </text>
+  <url value="http://saudeid.com.br/fhir/ValueSet/CBO-1.0"/>
+  <version value="0.0.2"/>
+  <name value="Classificação Brasileira de Ocupações - CBO"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-12T13:22:05.8261152+00:00"/>
+  <publisher value="Saude iD"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://saudeid.com.br"/>
+    </telecom>
+  </contact>
+  <description value="Classifica as profissões do mercado de trabalho brasileiro."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://saudeid.com.br/fhir/CodeSystem/CBO"/>
+      <version value="*"/>
+    </include>
+  </compose>
+</ValueSet>
