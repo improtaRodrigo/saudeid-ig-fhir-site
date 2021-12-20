@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="saudeid"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Guia de implementacao da Saude iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Guia de implementação da Saúde iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
 </div></div>
   </text>
   <url value="http://saudeid.com.br/fhir/ImplementationGuide/saudeid"/>
   <version value="0.0.2"/>
-  <name value="Guia de implementacao da Saude iD"/>
-  <title value="Guia de implementacao da Saude iD"/>
+  <name value="Guia de implementação da Saúde iD"/>
+  <title value="Guia de implementação da Saúde iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-17T20:23:40-02:00"/>
+  <date value="2021-12-20T14:18:07-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -20,7 +20,7 @@
       <value value="http://saudeid.com.br"/>
     </telecom>
   </contact>
-  <description value="O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente."/>
+  <description value="O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -406,18 +406,8 @@
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
-        <generation value="html"/>
-      </page>
-      <page>
         <nameUrl value="general-guidance.html"/>
         <title value="Orientações gerais"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="history.html"/>
-        <title value="Histórico de mudanças"/>
         <generation value="html"/>
       </page>
       <page>
@@ -429,6 +419,16 @@
           <title value="Perfis e extensões"/>
           <generation value="html"/>
         </page>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="history.html"/>
+        <title value="Histórico de mudanças"/>
+        <generation value="html"/>
       </page>
     </page>
     <parameter>

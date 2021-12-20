@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="76461f5e-3863-4ac6-a49d-47d4ceceecf3"/>
+  <id value="e1c6bfde-db2d-4ca7-a01f-f74647045d84"/>
   <meta>
-    <lastUpdated value="2021-12-17T20:23:40.921-02:00"/>
+    <lastUpdated value="2021-12-20T14:18:07.185-02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -20952,8 +20952,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5a9821fa-5679-4573-96e3-5a2cbcdc2f89"/>
-          <timestamp value="2021-12-17T20:24:29-02:00"/>
+          <identifier value="urn:uuid:6f7ad70f-489d-4776-bde3-f4cf77dd94d3"/>
+          <timestamp value="2021-12-20T14:18:33-02:00"/>
           <total value="2611"/>
           <parameter>
             <name value="excludeNested"/>

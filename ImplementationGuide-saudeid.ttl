@@ -10,15 +10,15 @@
   fhir:Resource.id [ fhir:value "saudeid"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Guia de implementacao da Saude iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Guia de implementação da Saúde iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://saudeid.com.br/fhir/ImplementationGuide/saudeid"];
   fhir:ImplementationGuide.version [ fhir:value "0.0.2"];
-  fhir:ImplementationGuide.name [ fhir:value "Guia de implementacao da Saude iD"];
-  fhir:ImplementationGuide.title [ fhir:value "Guia de implementacao da Saude iD"];
+  fhir:ImplementationGuide.name [ fhir:value "Guia de implementação da Saúde iD"];
+  fhir:ImplementationGuide.title [ fhir:value "Guia de implementação da Saúde iD"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-17T20:23:40-02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-20T14:18:07-02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Saude iD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -28,7 +28,7 @@
        fhir:ContactPoint.value [ fhir:value "http://saudeid.com.br" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente."];
+  fhir:ImplementationGuide.description [ fhir:value "O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -571,21 +571,11 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-       ], [
-         fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "general-guidance.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Orientações gerais" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "history.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Histórico de mudanças" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-       ], [
-         fhir:index 4;
+         fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "artifacts.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Artefatos FHIR" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
@@ -595,6 +585,16 @@
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Perfis e extensões" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+       ], [
+         fhir:index 4;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "history.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Histórico de mudanças" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ]
      ];
      fhir:ImplementationGuide.definition.parameter [

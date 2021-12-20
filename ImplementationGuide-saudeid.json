@@ -3,15 +3,15 @@
   "id": "saudeid",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Guia de implementacao da Saude iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Guia de implementação da Saúde iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   },
   "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
   "version": "0.0.2",
-  "name": "Guia de implementacao da Saude iD",
-  "title": "Guia de implementacao da Saude iD",
+  "name": "Guia de implementação da Saúde iD",
+  "title": "Guia de implementação da Saúde iD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-17T20:23:40-02:00",
+  "date": "2021-12-20T14:18:07-02:00",
   "publisher": "Saude iD",
   "contact": [
     {
@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "description": "O Guia de Implementacao da Saude iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.",
+  "description": "O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.",
   "jurisdiction": [
     {
       "coding": [
@@ -589,18 +589,8 @@
           "generation": "html"
         },
         {
-          "nameUrl": "downloads.html",
-          "title": "Downloads",
-          "generation": "html"
-        },
-        {
           "nameUrl": "general-guidance.html",
           "title": "Orientações gerais",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "history.html",
-          "title": "Histórico de mudanças",
           "generation": "html"
         },
         {
@@ -614,6 +604,16 @@
               "generation": "html"
             }
           ]
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "history.html",
+          "title": "Histórico de mudanças",
+          "generation": "html"
         }
       ]
     },
