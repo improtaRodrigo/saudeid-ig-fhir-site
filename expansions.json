@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e1c6bfde-db2d-4ca7-a01f-f74647045d84",
+  "id" : "e12d7653-2bfe-493d-9b8a-dd7cd4f2cfe7",
   "meta" : {
-    "lastUpdated" : "2021-12-20T14:18:07.185-02:00"
+    "lastUpdated" : "2021-12-20T17:41:14.731-02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -20,7 +20,8 @@
       },
       "url" : "http://saudeid.com.br/fhir/ValueSet/CBO-1.0",
       "version" : "0.0.2",
-      "name" : "Classificação Brasileira de Ocupações - CBO",
+      "name" : "ValueSetCBO",
+      "title" : "Classificação Brasileira de Ocupações - CBO",
       "status" : "active",
       "experimental" : false,
       "date" : "2020-03-12T13:22:05.8261152+00:00",
@@ -40,8 +41,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6f7ad70f-489d-4776-bde3-f4cf77dd94d3",
-        "timestamp" : "2021-12-20T14:18:33-02:00",
+        "identifier" : "urn:uuid:e7efe9a7-9cb5-4065-8cc4-132a696c9024",
+        "timestamp" : "2021-12-20T17:41:41-02:00",
         "total" : 2611,
         "parameter" : [{
           "name" : "excludeNested",

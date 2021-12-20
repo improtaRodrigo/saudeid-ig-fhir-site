@@ -14,8 +14,8 @@
   ];
   fhir:StructureDefinition.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex"];
   fhir:StructureDefinition.version [ fhir:value "0.0.2"];
-  fhir:StructureDefinition.name [ fhir:value "biologicalSex"];
-  fhir:StructureDefinition.title [ fhir:value "biologicalSex"];
+  fhir:StructureDefinition.name [ fhir:value "PatientBiologicalSex"];
+  fhir:StructureDefinition.title [ fhir:value "Patient-biologicalSex"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2021-12-15"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "Saude iD"];

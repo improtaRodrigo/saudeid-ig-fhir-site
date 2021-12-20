@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e1c6bfde-db2d-4ca7-a01f-f74647045d84"/>
+  <id value="e12d7653-2bfe-493d-9b8a-dd7cd4f2cfe7"/>
   <meta>
-    <lastUpdated value="2021-12-20T14:18:07.185-02:00"/>
+    <lastUpdated value="2021-12-20T17:41:14.731-02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -20932,7 +20932,8 @@
         </text>
         <url value="http://saudeid.com.br/fhir/ValueSet/CBO-1.0"/>
         <version value="0.0.2"/>
-        <name value="Classificação Brasileira de Ocupações - CBO"/>
+        <name value="ValueSetCBO"/>
+        <title value="Classificação Brasileira de Ocupações - CBO"/>
         <status value="active"/>
         <experimental value="false"/>
         <date value="2020-03-12T13:22:05.8261152+00:00"/>
@@ -20952,8 +20953,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6f7ad70f-489d-4776-bde3-f4cf77dd94d3"/>
-          <timestamp value="2021-12-20T14:18:33-02:00"/>
+          <identifier value="urn:uuid:e7efe9a7-9cb5-4065-8cc4-132a696c9024"/>
+          <timestamp value="2021-12-20T17:41:41-02:00"/>
           <total value="2611"/>
           <parameter>
             <name value="excludeNested"/>

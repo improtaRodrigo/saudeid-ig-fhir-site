@@ -18,7 +18,8 @@
   ];
   fhir:ValueSet.url [ fhir:value "http://saudeid.com.br/fhir/ValueSet/CBO-1.0"];
   fhir:ValueSet.version [ fhir:value "0.0.2"];
-  fhir:ValueSet.name [ fhir:value "Classificação Brasileira de Ocupações - CBO"];
+  fhir:ValueSet.name [ fhir:value "ValueSetCBO"];
+  fhir:ValueSet.title [ fhir:value "Classificação Brasileira de Ocupações - CBO"];
   fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
   fhir:ValueSet.date [ fhir:value "2020-03-12T13:22:05.8261152+00:00"^^xsd:dateTime];

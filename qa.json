@@ -1,11 +1,11 @@
 {
   "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
-  "name": "Guia de implementação da Saúde iD",
+  "name": "ImplementationGuideSaudeiD",
   "package-id": "saudeid",
   "ig-ver": "0.0.2",
-  "date": "Mon, 20 Dec, 2021 14:18:07 -0200",
+  "date": "Mon, 20 Dec, 2021 17:41:14 -0200",
   "errs": 0,
-  "warnings": 18,
+  "warnings": 0,
   "hints": 39,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="saudeid"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Guia de implementação da Saúde iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
 </div></div>
   </text>
   <url value="http://saudeid.com.br/fhir/ImplementationGuide/saudeid"/>
   <version value="0.0.2"/>
-  <name value="Guia de implementação da Saúde iD"/>
+  <name value="ImplementationGuideSaudeiD"/>
   <title value="Guia de implementação da Saúde iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-20T14:18:07-02:00"/>
+  <date value="2021-12-20T17:41:14-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -252,7 +252,7 @@
       <reference>
         <reference value="Patient/patient-001"/>
       </reference>
-      <name value="patient-example"/>
+      <name value="Patient-example"/>
       <description value="Exemplo de paciente da Saúde iD."/>
       <exampleCanonical value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
     </resource>
@@ -263,7 +263,7 @@
       <reference>
         <reference value="StructureDefinition/patient-agreedWithUserTerms"/>
       </reference>
-      <name value="agreedWithUserTerms"/>
+      <name value="Patient-agreedWithUserTerms"/>
       <description value="Indicates whether user had agrees with User Terms or not."/>
     </resource>
     <resource>
@@ -273,7 +273,7 @@
       <reference>
         <reference value="StructureDefinition/patient-biologicalSex"/>
       </reference>
-      <name value="biologicalSex"/>
+      <name value="Patient-biologicalSex"/>
       <description value="Patient&#39;s biological sex."/>
     </resource>
     <resource>
@@ -283,7 +283,7 @@
       <reference>
         <reference value="StructureDefinition/patient-deviceOperationalSystem"/>
       </reference>
-      <name value="deviceOperationalSystem"/>
+      <name value="Patient-deviceOperationalSystem"/>
       <description value="Operational system installed in patient&#39;s device."/>
     </resource>
     <resource>
@@ -293,7 +293,7 @@
       <reference>
         <reference value="StructureDefinition/patient-ethnicity"/>
       </reference>
-      <name value="ethnicity"/>
+      <name value="Patient-ethnicity"/>
       <description value="The patient&#39;s professed religious affiliations."/>
     </resource>
     <resource>
@@ -303,7 +303,7 @@
       <reference>
         <reference value="StructureDefinition/patient-fathersName"/>
       </reference>
-      <name value="fathersName"/>
+      <name value="Patient-fathersName"/>
       <description value="Full name of patient&#39;s father."/>
     </resource>
     <resource>
@@ -313,7 +313,7 @@
       <reference>
         <reference value="StructureDefinition/patient-idClienteFleury"/>
       </reference>
-      <name value="idClienteFleury"/>
+      <name value="Patient-idClienteFleury"/>
       <description value="Fleury client&#39;s id."/>
     </resource>
     <resource>
@@ -323,7 +323,7 @@
       <reference>
         <reference value="StructureDefinition/patient-idDocumentoFleury"/>
       </reference>
-      <name value="idDocumentoFleury"/>
+      <name value="Patient-idDocumentoFleury"/>
       <description value="Fleury document&#39;s id."/>
     </resource>
     <resource>
@@ -333,7 +333,7 @@
       <reference>
         <reference value="StructureDefinition/patient-idWorkstation"/>
       </reference>
-      <name value="idWorkstation"/>
+      <name value="Patient-idWorkstation"/>
       <description value="Workstation&#39;s id."/>
     </resource>
     <resource>
@@ -343,7 +343,7 @@
       <reference>
         <reference value="StructureDefinition/patient-isB2B"/>
       </reference>
-      <name value="isB2B"/>
+      <name value="Patient-isB2B"/>
       <description value="Flag indicating if the patient is B2B."/>
     </resource>
     <resource>
@@ -353,7 +353,7 @@
       <reference>
         <reference value="StructureDefinition/patient-isB2C"/>
       </reference>
-      <name value="isB2C"/>
+      <name value="Patient-isB2C"/>
       <description value="Flag indicating if the patient is B2C."/>
     </resource>
     <resource>
@@ -363,7 +363,7 @@
       <reference>
         <reference value="StructureDefinition/patient-lastUpdate"/>
       </reference>
-      <name value="lastUpdate"/>
+      <name value="Patient-lastUpdate"/>
       <description value="Date and time of the last time some information of the patient was updated."/>
     </resource>
     <resource>
@@ -373,7 +373,7 @@
       <reference>
         <reference value="StructureDefinition/patient-mothersName"/>
       </reference>
-      <name value="mothersName"/>
+      <name value="Patient-mothersName"/>
       <description value="Full name of patient&#39;s mother."/>
     </resource>
     <resource>
@@ -383,7 +383,7 @@
       <reference>
         <reference value="StructureDefinition/patient-occupation"/>
       </reference>
-      <name value="occupation"/>
+      <name value="Patient-occupation"/>
       <description value="Information about a person&#39;s work and volunteer positions to support patient care, population health and public health activities."/>
     </resource>
     <resource>
@@ -393,7 +393,7 @@
       <reference>
         <reference value="StructureDefinition/patient-prontmedCode"/>
       </reference>
-      <name value="prontmedCode"/>
+      <name value="Patient-prontmedCode"/>
       <description value="Numerical identification for Prontmed patients."/>
     </resource>
     <page>
@@ -411,14 +411,14 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Perfis"/>
+        <generation value="html"/>
+      </page>
+      <page>
         <nameUrl value="artifacts.html"/>
         <title value="Artefatos FHIR"/>
         <generation value="html"/>
-        <page>
-          <nameUrl value="profiles.html"/>
-          <title value="Perfis e extensões"/>
-          <generation value="html"/>
-        </page>
       </page>
       <page>
         <nameUrl value="downloads.html"/>

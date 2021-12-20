@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate"/>
   <version value="0.0.2"/>
-  <name value="lastUpdate"/>
-  <title value="lastUpdate"/>
+  <name value="PatientLastUpdate"/>
+  <title value="Patient-lastUpdate"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

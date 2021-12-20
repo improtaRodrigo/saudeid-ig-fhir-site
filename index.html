@@ -81,10 +81,10 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="artifacts.html">Lista de artefatos</a>
+        <a href="profiles.html">Perfis</a>
       </li>
       <li>
-        <a href="profiles.html">Perfis e Extensões</a>
+        <a href="artifacts.html">Lista de artefatos</a>
       </li>
     </ul>
   </li>
@@ -154,12 +154,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!--ReleaseHeader--><p id="publish-box">Guia de implementação da Saúde iD - Local Development build (v0.0.2). See the <a href="http://saudeid.com.br/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Início</h2>
   
-  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#1">Introdução</a></li><li><a href="#2">Como utilizar este guia?</a></li><li><a href="#3">Perfis</a></li></ul></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#1">Introdução</a></li><li><a href="#2">Como utilizar este guia?</a></li></ul></div>
 
 <ul id="markdown-toc">
   <li><a href="#introduction" id="markdown-toc-introduction">Introdução</a></li>
   <li><a href="#how-to-read-this-guide" id="markdown-toc-how-to-read-this-guide">Como utilizar este guia?</a></li>
-  <li><a href="#saudeid-profiles" id="markdown-toc-profiles">Perfis</a></li>
 </ul>
 
 <a name="1"/><h3 id="introduction">Introdução</h3>
@@ -180,24 +179,13 @@ utilizar o <a href="https://br-core.gointerop.com/fhir/index.html" title="Br-Cor
     comuns a todos os atores previstos neste guia.</li>
   <li><a href="artifacts.html">Artefatos FHIR</a>: Provê uma descrição detalhada e formal de todos os objetos e entidades FHIR deste guia.
     <ul>
-      <li><a href="profiles.html">Perfis e Extensões</a>: Essa página lista todos os perfis e extensões utilizados por este guia. 
+      <li><a href="profiles.html">Perfis</a>: Essa página lista todos os perfis utilizados por este guia. 
         Cada perfil inclui uma descrição narrativa, definição formal e um guia de início rápido para cada operação.</li>
     </ul>
   </li>
   <li><a href="downloads.html" title="Downloads Page">Downloads</a>: Provê links para download de cada artefato definido.</li>
   <li><a href="history.html" title="History Page">Histórico de mudanças</a>: Essa página provê o histórico de alterações e versões deste guia.</li>
 </ul>
-
-
-<a name="3"/><h3 id="saudeid-profiles">Perfis</h3>
-
-<p>A lista de perfis deste guia segue abaixo. Cada perfil define um mínimo de elementos obrigatórios, extensões (campos adicionais) e requisitos semânticos que <strong>DEVEM</strong> 
-  ser apresentados. Para cada perfil, requisitos e orientações são fornecidos numa narrativa simples. Uma tabela formal e hierárquica é apresentada 
-  contendo uma <a href="http://hl7.org/fhir/R4/formats.html#table">visão lógica</a> do conteúdo em formas diferenciais (em relação ao canônico do FHIR R4)
-  ou resumidas, com referências a terminologias utilizadas e exemplos.
-  Para cada Perfil, uma visão geral dos dados obrigatórios para uma interação de leitura ou escrita é fornecida.</p>
-
-<li><a href="StructureDefinition-Patient-SaudeiD.html">Perfil de Paciente</a></li>
 <br/>
 
 <hr/>
@@ -249,7 +237,7 @@ utilizar o <a href="https://br-core.gointerop.com/fhir/index.html" title="Br-Cor
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://saudeid.com.br">Saude iD</a>.  Package saudeid#0.0.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 20, 2021 14:18-0200">2021-12-20</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://saudeid.com.br">Saude iD</a>.  Package saudeid#0.0.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 20, 2021 17:41-0200">2021-12-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

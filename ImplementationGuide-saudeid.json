@@ -3,15 +3,15 @@
   "id": "saudeid",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Guia de implementação da Saúde iD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   },
   "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
   "version": "0.0.2",
-  "name": "Guia de implementação da Saúde iD",
+  "name": "ImplementationGuideSaudeiD",
   "title": "Guia de implementação da Saúde iD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-20T14:18:07-02:00",
+  "date": "2021-12-20T17:41:14-02:00",
   "publisher": "Saude iD",
   "contact": [
     {
@@ -391,7 +391,7 @@
         "reference": {
           "reference": "Patient/patient-001"
         },
-        "name": "patient-example",
+        "name": "Patient-example",
         "description": "Exemplo de paciente da Saúde iD.",
         "exampleCanonical": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"
       },
@@ -405,7 +405,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-agreedWithUserTerms"
         },
-        "name": "agreedWithUserTerms",
+        "name": "Patient-agreedWithUserTerms",
         "description": "Indicates whether user had agrees with User Terms or not."
       },
       {
@@ -418,7 +418,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-biologicalSex"
         },
-        "name": "biologicalSex",
+        "name": "Patient-biologicalSex",
         "description": "Patient's biological sex."
       },
       {
@@ -431,7 +431,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-deviceOperationalSystem"
         },
-        "name": "deviceOperationalSystem",
+        "name": "Patient-deviceOperationalSystem",
         "description": "Operational system installed in patient's device."
       },
       {
@@ -444,7 +444,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-ethnicity"
         },
-        "name": "ethnicity",
+        "name": "Patient-ethnicity",
         "description": "The patient's professed religious affiliations."
       },
       {
@@ -457,7 +457,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-fathersName"
         },
-        "name": "fathersName",
+        "name": "Patient-fathersName",
         "description": "Full name of patient's father."
       },
       {
@@ -470,7 +470,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-idClienteFleury"
         },
-        "name": "idClienteFleury",
+        "name": "Patient-idClienteFleury",
         "description": "Fleury client's id."
       },
       {
@@ -483,7 +483,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-idDocumentoFleury"
         },
-        "name": "idDocumentoFleury",
+        "name": "Patient-idDocumentoFleury",
         "description": "Fleury document's id."
       },
       {
@@ -496,7 +496,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-idWorkstation"
         },
-        "name": "idWorkstation",
+        "name": "Patient-idWorkstation",
         "description": "Workstation's id."
       },
       {
@@ -509,7 +509,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-isB2B"
         },
-        "name": "isB2B",
+        "name": "Patient-isB2B",
         "description": "Flag indicating if the patient is B2B."
       },
       {
@@ -522,7 +522,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-isB2C"
         },
-        "name": "isB2C",
+        "name": "Patient-isB2C",
         "description": "Flag indicating if the patient is B2C."
       },
       {
@@ -535,7 +535,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-lastUpdate"
         },
-        "name": "lastUpdate",
+        "name": "Patient-lastUpdate",
         "description": "Date and time of the last time some information of the patient was updated."
       },
       {
@@ -548,7 +548,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-mothersName"
         },
-        "name": "mothersName",
+        "name": "Patient-mothersName",
         "description": "Full name of patient's mother."
       },
       {
@@ -561,7 +561,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-occupation"
         },
-        "name": "occupation",
+        "name": "Patient-occupation",
         "description": "Information about a person's work and volunteer positions to support patient care, population health and public health activities."
       },
       {
@@ -574,7 +574,7 @@
         "reference": {
           "reference": "StructureDefinition/patient-prontmedCode"
         },
-        "name": "prontmedCode",
+        "name": "Patient-prontmedCode",
         "description": "Numerical identification for Prontmed patients."
       }
     ],
@@ -594,16 +594,14 @@
           "generation": "html"
         },
         {
+          "nameUrl": "profiles.html",
+          "title": "Perfis",
+          "generation": "html"
+        },
+        {
           "nameUrl": "artifacts.html",
           "title": "Artefatos FHIR",
-          "generation": "html",
-          "page": [
-            {
-              "nameUrl": "profiles.html",
-              "title": "Perfis e extensões",
-              "generation": "html"
-            }
-          ]
+          "generation": "html"
         },
         {
           "nameUrl": "downloads.html",

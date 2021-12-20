@@ -19,7 +19,8 @@
   ];
   fhir:CodeSystem.url [ fhir:value "http://saudeid.com.br/fhir/CodeSystem/CBO"];
   fhir:CodeSystem.version [ fhir:value "0.0.2"];
-  fhir:CodeSystem.name [ fhir:value "Classificação Brasileira de Ocupações - CBO"];
+  fhir:CodeSystem.name [ fhir:value "CodeSystemCBO"];
+  fhir:CodeSystem.title [ fhir:value "Classificação Brasileira de Ocupações - CBO"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
   fhir:CodeSystem.date [ fhir:value "2020-08-12T14:20:37.4768454+00:00"^^xsd:dateTime];

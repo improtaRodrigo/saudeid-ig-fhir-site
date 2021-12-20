@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem"/>
   <version value="0.0.2"/>
-  <name value="deviceOperationalSystem"/>
-  <title value="deviceOperationalSystem"/>
+  <name value="PatientDeviceOperationalSystem"/>
+  <title value="Patient-deviceOperationalSystem"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

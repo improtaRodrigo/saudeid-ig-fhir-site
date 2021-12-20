@@ -6,7 +6,7 @@
     <profile value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "patient-001" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Patient-SaudeiD.html">Patient-SaudeiD</a></p></div><p><b>Birth Place</b>: Avenida Duque de Caxias, 446, Quadra 4, Palmas, TO 31713533</p><p><b>occupation</b>: 212405</p><p><b>biologicalSex</b>: male</p><p><b>deviceOperationalSystem</b>: Android</p><p><b>ethnicity</b>: Caucasiano</p><p><b>fathersName</b>: Bruno Conceição da Silva</p><p><b>agreedWithUserTerms</b>: true</p><p><b>idClienteFleury</b>: 123456789</p><p><b>idDocumentoFleury</b>: 456789012</p><p><b>idWorkstation</b>: 789012345</p><p><b>isB2B</b>: true</p><p><b>isB2C</b>: false</p><p><b>lastUpdate</b>: 2021-12-10T12:37:41-03:00</p><p><b>mothersName</b>: Maria Souza Amaral</p><p><b>prontmedCode</b>: 123456</p><p><b>identifier</b>: id: 001</p><p><b>name</b>: Pedro Amaral da Silva(OFFICIAL)</p><p><b>telecom</b>: ph: (72) 68140-9748(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-04-15</p><p><b>address</b>: Rua São Pedro, 4233, Casa 2, Jequié, BA 76980224(HOME)</p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td>Brother <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0131.html">contactRole2</a>#C "Emergency Contact")</span></td><td>José Amaral da Silva(OFFICIAL)</td><td>ph: (27) 99770-4704(HOME)</td><td>Rua da Paz, 8511, Ariquemes, RO 59821192(HOME)</td><td>male</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "patient-001" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Patient-SaudeiD.html">Patient-SaudeiD</a></p></div><p><b>Birth Place</b>: Avenida Duque de Caxias, 446, Quadra 4, Palmas, TO 31713533</p><p><b>Patient-occupation</b>: 212405</p><p><b>Patient-biologicalSex</b>: male</p><p><b>Patient-deviceOperationalSystem</b>: Android</p><p><b>Patient-ethnicity</b>: Caucasiano</p><p><b>Patient-fathersName</b>: Bruno Conceição da Silva</p><p><b>Patient-agreedWithUserTerms</b>: true</p><p><b>Patient-idClienteFleury</b>: 123456789</p><p><b>Patient-idDocumentoFleury</b>: 456789012</p><p><b>Patient-idWorkstation</b>: 789012345</p><p><b>Patient-isB2B</b>: true</p><p><b>Patient-isB2C</b>: false</p><p><b>Patient-lastUpdate</b>: 2021-12-10T12:37:41-03:00</p><p><b>Patient-mothersName</b>: Maria Souza Amaral</p><p><b>Patient-prontmedCode</b>: 123456</p><p><b>identifier</b>: id: 70378639048 (OFFICIAL)</p><p><b>name</b>: Pedro Amaral da Silva(OFFICIAL)</p><p><b>telecom</b>: ph: (72) 68140-9748(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-04-15</p><p><b>address</b>: Rua São Pedro, 4233, Casa 2, Jequié, BA 76980224(HOME)</p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td>Brother <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0131.html">contactRole2</a>#C "Emergency Contact")</span></td><td>José Amaral da Silva(OFFICIAL)</td><td>ph: (27) 99770-4704(HOME)</td><td>Rua da Paz, 8511, Ariquemes, RO 59821192(HOME)</td><td>male</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
     <valueAddress>
@@ -60,7 +60,9 @@
     <valueInteger value="123456"/>
   </extension>
   <identifier>
-    <value value="001"/>
+    <use value="official"/>
+    <system value="http://rnds.saude.gov.br/fhir/r4/NamingSystem/cpf"/>
+    <value value="70378639048"/>
   </identifier>
   <name>
     <use value="official"/>
@@ -80,10 +82,10 @@
     <use value="home"/>
     <type value="both"/>
     <text value="Rua São Pedro, 4233, Casa 2, Jequié, BA 76980224"/>
-    <line value="Rua São Pedro, 4233, Casa 2"/>
     <city value="Jequié"/>
     <state value="BA"/>
     <postalCode value="76980224"/>
+    <country value="Brazil"/>
   </address>
   <contact>
     <relationship>
@@ -114,6 +116,7 @@
       <city value="Ariquemes"/>
       <state value="RO"/>
       <postalCode value="59821192"/>
+      <country value="Brazil"/>
     </address>
     <gender value="male"/>
   </contact>

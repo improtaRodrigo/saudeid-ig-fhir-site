@@ -14,8 +14,8 @@
   ];
   fhir:StructureDefinition.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury"];
   fhir:StructureDefinition.version [ fhir:value "0.0.2"];
-  fhir:StructureDefinition.name [ fhir:value "idDocumentoFleury"];
-  fhir:StructureDefinition.title [ fhir:value "idDocumentoFleury"];
+  fhir:StructureDefinition.name [ fhir:value "PatientIdDocumentoFleury"];
+  fhir:StructureDefinition.title [ fhir:value "Patient-idDocumentoFleury"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2021-12-15"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "Saude iD"];

@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity"/>
   <version value="0.0.2"/>
-  <name value="ethnicity"/>
-  <title value="ethnicity"/>
+  <name value="PatientEthnicity"/>
+  <title value="Patient-ethnicity"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

@@ -6,98 +6,98 @@
   "extensions": [
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
-      "title": "agreedWithUserTerms",
+      "title": "Patient-agreedWithUserTerms",
       "types": [
         "boolean"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
-      "title": "biologicalSex",
+      "title": "Patient-biologicalSex",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
-      "title": "deviceOperationalSystem",
+      "title": "Patient-deviceOperationalSystem",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
-      "title": "ethnicity",
+      "title": "Patient-ethnicity",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
-      "title": "fathersName",
+      "title": "Patient-fathersName",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
-      "title": "idClienteFleury",
+      "title": "Patient-idClienteFleury",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
-      "title": "idDocumentoFleury",
+      "title": "Patient-idDocumentoFleury",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
-      "title": "idWorkstation",
+      "title": "Patient-idWorkstation",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
-      "title": "isB2B",
+      "title": "Patient-isB2B",
       "types": [
         "boolean"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
-      "title": "isB2C",
+      "title": "Patient-isB2C",
       "types": [
         "boolean"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
-      "title": "lastUpdate",
+      "title": "Patient-lastUpdate",
       "types": [
         "dateTime"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
-      "title": "mothersName",
+      "title": "Patient-mothersName",
       "types": [
         "string"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
-      "title": "occupation",
+      "title": "Patient-occupation",
       "types": [
         "code"
       ]
     },
     {
       "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
-      "title": "prontmedCode",
+      "title": "Patient-prontmedCode",
       "types": [
         "integer"
       ]
@@ -126,6 +126,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"

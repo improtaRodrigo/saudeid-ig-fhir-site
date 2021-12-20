@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C"/>
   <version value="0.0.2"/>
-  <name value="isB2C"/>
-  <title value="isB2C"/>
+  <name value="PatientIsB2C"/>
+  <title value="Patient-isB2C"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

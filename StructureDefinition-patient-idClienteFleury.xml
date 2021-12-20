@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury"/>
   <version value="0.0.2"/>
-  <name value="idClienteFleury"/>
-  <title value="idClienteFleury"/>
+  <name value="PatientIdClienteFleury"/>
+  <title value="Patient-idClienteFleury"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

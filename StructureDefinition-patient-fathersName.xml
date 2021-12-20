@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName"/>
   <version value="0.0.2"/>
-  <name value="fathersName"/>
-  <title value="fathersName"/>
+  <name value="PatientFathersName"/>
+  <title value="Patient-fathersName"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

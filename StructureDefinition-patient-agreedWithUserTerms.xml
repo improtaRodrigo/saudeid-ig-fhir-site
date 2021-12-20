@@ -11,8 +11,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms"/>
   <version value="0.0.2"/>
-  <name value="agreedWithUserTerms"/>
-  <title value="agreedWithUserTerms"/>
+  <name value="PatientAgreedWithUserTerms"/>
+  <title value="Patient-agreedWithUserTerms"/>
   <status value="draft"/>
   <date value="2021-12-15"/>
   <publisher value="Saude iD"/>

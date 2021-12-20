@@ -12,7 +12,8 @@
   </text>
   <url value="http://saudeid.com.br/fhir/CodeSystem/CBO"/>
   <version value="0.0.2"/>
-  <name value="Classificação Brasileira de Ocupações - CBO"/>
+  <name value="CodeSystemCBO"/>
+  <title value="Classificação Brasileira de Ocupações - CBO"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2020-08-12T14:20:37.4768454+00:00"/>

@@ -4,125 +4,125 @@
     "type": "CodeSystem",
     "url": "http://saudeid.com.br/fhir/CodeSystem/CBO",
     "version": "0.0.2",
-    "name": "Classificação Brasileira de Ocupações - CBO"
+    "name": "CodeSystemCBO"
   },
   {
     "id": "saudeid",
     "type": "ImplementationGuide",
     "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
     "version": "0.0.2",
-    "name": "Guia de implementação da Saúde iD"
+    "name": "ImplementationGuideSaudeiD"
   },
   {
     "id": "Patient-SaudeiD",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD",
     "version": "0.0.2",
-    "name": "Patient-SaudeiD"
+    "name": "PatientSaudeiD"
   },
   {
     "id": "patient-agreedWithUserTerms",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
     "version": "0.0.2",
-    "name": "agreedWithUserTerms"
+    "name": "PatientAgreedWithUserTerms"
   },
   {
     "id": "patient-biologicalSex",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
     "version": "0.0.2",
-    "name": "biologicalSex"
+    "name": "PatientBiologicalSex"
   },
   {
     "id": "patient-deviceOperationalSystem",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
     "version": "0.0.2",
-    "name": "deviceOperationalSystem"
+    "name": "PatientDeviceOperationalSystem"
   },
   {
     "id": "patient-ethnicity",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
     "version": "0.0.2",
-    "name": "ethnicity"
+    "name": "PatientEthnicity"
   },
   {
     "id": "patient-fathersName",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
     "version": "0.0.2",
-    "name": "fathersName"
+    "name": "PatientFathersName"
   },
   {
     "id": "patient-idClienteFleury",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
     "version": "0.0.2",
-    "name": "idClienteFleury"
+    "name": "PatientIdClienteFleury"
   },
   {
     "id": "patient-idDocumentoFleury",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
     "version": "0.0.2",
-    "name": "idDocumentoFleury"
+    "name": "PatientIdDocumentoFleury"
   },
   {
     "id": "patient-idWorkstation",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
     "version": "0.0.2",
-    "name": "idWorkstation"
+    "name": "PatientIdWorkstation"
   },
   {
     "id": "patient-isB2B",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
     "version": "0.0.2",
-    "name": "isB2B"
+    "name": "PatientIsB2B"
   },
   {
     "id": "patient-isB2C",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
     "version": "0.0.2",
-    "name": "isB2C"
+    "name": "PatientIsB2C"
   },
   {
     "id": "patient-lastUpdate",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
     "version": "0.0.2",
-    "name": "lastUpdate"
+    "name": "PatientLastUpdate"
   },
   {
     "id": "patient-mothersName",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
     "version": "0.0.2",
-    "name": "mothersName"
+    "name": "PatientMothersName"
   },
   {
     "id": "patient-occupation",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
     "version": "0.0.2",
-    "name": "occupation"
+    "name": "PatientOccupation"
   },
   {
     "id": "patient-prontmedCode",
     "type": "StructureDefinition",
     "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
     "version": "0.0.2",
-    "name": "prontmedCode"
+    "name": "PatientProntmedCode"
   },
   {
     "id": "CBO-1.0",
     "type": "ValueSet",
     "url": "http://saudeid.com.br/fhir/ValueSet/CBO-1.0",
     "version": "0.0.2",
-    "name": "Classificação Brasileira de Ocupações - CBO"
+    "name": "ValueSetCBO"
   }
 ]
