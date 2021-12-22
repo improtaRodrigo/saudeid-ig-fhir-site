@@ -2,126 +2,126 @@
   {
     "id": "CBO",
     "type": "CodeSystem",
-    "url": "http://saudeid.com.br/fhir/CodeSystem/CBO",
+    "url": "http://saudeid-data.github.io/fhir/CodeSystem/CBO",
     "version": "0.0.2",
     "name": "CodeSystemCBO"
   },
   {
     "id": "saudeid",
     "type": "ImplementationGuide",
-    "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
+    "url": "http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid",
     "version": "0.0.2",
     "name": "ImplementationGuideSaudeiD"
   },
   {
     "id": "Patient-SaudeiD",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD",
     "version": "0.0.2",
     "name": "PatientSaudeiD"
   },
   {
     "id": "patient-agreedWithUserTerms",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms",
     "version": "0.0.2",
     "name": "PatientAgreedWithUserTerms"
   },
   {
     "id": "patient-biologicalSex",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex",
     "version": "0.0.2",
     "name": "PatientBiologicalSex"
   },
   {
     "id": "patient-deviceOperationalSystem",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem",
     "version": "0.0.2",
     "name": "PatientDeviceOperationalSystem"
   },
   {
     "id": "patient-ethnicity",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity",
     "version": "0.0.2",
     "name": "PatientEthnicity"
   },
   {
     "id": "patient-fathersName",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName",
     "version": "0.0.2",
     "name": "PatientFathersName"
   },
   {
     "id": "patient-idClienteFleury",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury",
     "version": "0.0.2",
     "name": "PatientIdClienteFleury"
   },
   {
     "id": "patient-idDocumentoFleury",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury",
     "version": "0.0.2",
     "name": "PatientIdDocumentoFleury"
   },
   {
     "id": "patient-idWorkstation",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation",
     "version": "0.0.2",
     "name": "PatientIdWorkstation"
   },
   {
     "id": "patient-isB2B",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B",
     "version": "0.0.2",
     "name": "PatientIsB2B"
   },
   {
     "id": "patient-isB2C",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C",
     "version": "0.0.2",
     "name": "PatientIsB2C"
   },
   {
     "id": "patient-lastUpdate",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate",
     "version": "0.0.2",
     "name": "PatientLastUpdate"
   },
   {
     "id": "patient-mothersName",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName",
     "version": "0.0.2",
     "name": "PatientMothersName"
   },
   {
     "id": "patient-occupation",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation",
     "version": "0.0.2",
     "name": "PatientOccupation"
   },
   {
     "id": "patient-prontmedCode",
     "type": "StructureDefinition",
-    "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode",
     "version": "0.0.2",
     "name": "PatientProntmedCode"
   },
   {
     "id": "CBO-1.0",
     "type": "ValueSet",
-    "url": "http://saudeid.com.br/fhir/ValueSet/CBO-1.0",
+    "url": "http://saudeid-data.github.io/fhir/ValueSet/CBO-1.0",
     "version": "0.0.2",
     "name": "ValueSetCBO"
   }

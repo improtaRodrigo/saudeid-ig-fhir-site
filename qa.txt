@@ -3,7 +3,7 @@
 
 err = 0, warn = 0, info = 39
 IG Publisher Version: 1.1.90 Out of date - current version is ?pub-ver-1?
-Generated Mon Dec 20 17:41:58 BRST 2021. FHIR version 4.0.1 for saudeid#0.0.2 (canonical = http://saudeid.com.br/fhir)
+Generated Wed Dec 22 12:55:17 BRST 2021. FHIR version 4.0.1 for saudeid#0.0.2 (canonical = http://saudeid-data.github.io/fhir)
  Build Errors : 0 / 0 / 0
  C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\examples\patient-example : 0 / 0 / 2
  C:\Users\SaudeiD\Documents\git\saudeid-ig-fhir\input\resources\codesystem-cbo-saudeid : 0 / 0 / 5

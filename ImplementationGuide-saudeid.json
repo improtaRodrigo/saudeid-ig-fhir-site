@@ -3,15 +3,15 @@
   "id": "saudeid",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   },
-  "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
+  "url": "http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid",
   "version": "0.0.2",
   "name": "ImplementationGuideSaudeiD",
   "title": "Guia de implementação da Saúde iD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-20T17:41:14-02:00",
+  "date": "2021-12-22T12:53:46-02:00",
   "publisher": "Saude iD",
   "contact": [
     {
@@ -205,7 +205,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://saudeid.com.br/fhir/history.html"
+            "valueString": "http://saudeid-data.github.io/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -393,7 +393,7 @@
         },
         "name": "Patient-example",
         "description": "Exemplo de paciente da Saúde iD.",
-        "exampleCanonical": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"
+        "exampleCanonical": "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD"
       },
       {
         "extension": [

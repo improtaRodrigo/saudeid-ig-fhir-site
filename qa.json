@@ -1,9 +1,9 @@
 {
-  "url": "http://saudeid.com.br/fhir/ImplementationGuide/saudeid",
+  "url": "http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid",
   "name": "ImplementationGuideSaudeiD",
   "package-id": "saudeid",
   "ig-ver": "0.0.2",
-  "date": "Mon, 20 Dec, 2021 17:41:14 -0200",
+  "date": "Wed, 22 Dec, 2021 12:53:46 -0200",
   "errs": 0,
   "warnings": 0,
   "hints": 39,

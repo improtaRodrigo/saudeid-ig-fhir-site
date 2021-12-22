@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://saudeid.com.br/fhir/Patient/patient-001> a fhir:Patient;
+<http://saudeid-data.github.io/fhir/Patient/patient-001> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "patient-001"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD";
+       fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD";
        fhir:index 0;
-       fhir:link <http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD>
+       fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD>
      ]
   ];
   fhir:DomainResource.text [
@@ -34,59 +34,59 @@
      ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation" ];
      fhir:Extension.valueCode [ fhir:value "212405" ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex" ];
      fhir:Extension.valueString [ fhir:value "male" ]
   ], [
      fhir:index 3;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem" ];
      fhir:Extension.valueString [ fhir:value "Android" ]
   ], [
      fhir:index 4;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity" ];
      fhir:Extension.valueString [ fhir:value "Caucasiano" ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName" ];
      fhir:Extension.valueString [ fhir:value "Bruno Conceição da Silva" ]
   ], [
      fhir:index 6;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ], [
      fhir:index 7;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury" ];
      fhir:Extension.valueString [ fhir:value "123456789" ]
   ], [
      fhir:index 8;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury" ];
      fhir:Extension.valueString [ fhir:value "456789012" ]
   ], [
      fhir:index 9;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation" ];
      fhir:Extension.valueString [ fhir:value "789012345" ]
   ], [
      fhir:index 10;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ], [
      fhir:index 11;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C" ];
      fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
   ], [
      fhir:index 12;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate" ];
      fhir:Extension.valueDateTime [ fhir:value "2021-12-10T12:37:41-03:00"^^xsd:dateTime ]
   ], [
      fhir:index 13;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName" ];
      fhir:Extension.valueString [ fhir:value "Maria Souza Amaral" ]
   ], [
      fhir:index 14;
-     fhir:Extension.url [ fhir:value "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode" ];
+     fhir:Extension.url [ fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode" ];
      fhir:Extension.valueInteger [ fhir:value "123456"^^xsd:integer ]
   ];
   fhir:Patient.identifier [
@@ -170,7 +170,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://saudeid.com.br/fhir/Patient/patient-001.ttl> a owl:Ontology;
+<http://saudeid-data.github.io/fhir/Patient/patient-001.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

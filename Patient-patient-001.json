@@ -3,7 +3,7 @@
   "id": "patient-001",
   "meta": {
     "profile": [
-      "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"
+      "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD"
     ]
   },
   "text": {
@@ -24,59 +24,59 @@
       }
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation",
       "valueCode": "212405"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex",
       "valueString": "male"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem",
       "valueString": "Android"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity",
       "valueString": "Caucasiano"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName",
       "valueString": "Bruno Conceição da Silva"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms",
       "valueBoolean": true
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury",
       "valueString": "123456789"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury",
       "valueString": "456789012"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation",
       "valueString": "789012345"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B",
       "valueBoolean": true
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C",
       "valueBoolean": false
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate",
       "valueDateTime": "2021-12-10T12:37:41-03:00"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName",
       "valueString": "Maria Souza Amaral"
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode",
       "valueInteger": 123456
     }
   ],

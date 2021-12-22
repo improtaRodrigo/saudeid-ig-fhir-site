@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="saudeid"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>
 </div></div>
   </text>
-  <url value="http://saudeid.com.br/fhir/ImplementationGuide/saudeid"/>
+  <url value="http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid"/>
   <version value="0.0.2"/>
   <name value="ImplementationGuideSaudeiD"/>
   <title value="Guia de implementação da Saúde iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-20T17:41:14-02:00"/>
+  <date value="2021-12-22T12:53:46-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -132,7 +132,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://saudeid.com.br/fhir/history.html"/>
+        <valueString value="http://saudeid-data.github.io/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -254,7 +254,7 @@
       </reference>
       <name value="Patient-example"/>
       <description value="Exemplo de paciente da Saúde iD."/>
-      <exampleCanonical value="http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD"/>
+      <exampleCanonical value="http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

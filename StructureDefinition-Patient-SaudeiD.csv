@@ -36,59 +36,59 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Place of Birth for patient","The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","occupation","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-occupation]]} {[]}
+"Patient.extension","occupation","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation]]} {[]}
 ","The patient's occupation.","Information about a person's work and volunteer positions to support patient care, population health and public health activities.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","prontmedCode","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode]]} {[]}
+"Patient.extension","prontmedCode","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode]]} {[]}
 ","Code identifier for Prontmed patients.","Numerical identification for Prontmed patients.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","mothersName","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName]]} {[]}
+"Patient.extension","mothersName","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName]]} {[]}
 ","Full name of patient's mother.","Full name of patient's mother.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","fathersName","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName]]} {[]}
+"Patient.extension","fathersName","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName]]} {[]}
 ","Full name of patient's father.","Full name of patient's father.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","agreedWithUserTerms","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms]]} {[]}
+"Patient.extension","agreedWithUserTerms","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms]]} {[]}
 ","Indicates whether user agrees with User Terms or not.","Indicates whether user agrees with User Terms or not.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","biologicalSex","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex]]} {[]}
+"Patient.extension","biologicalSex","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex]]} {[]}
 ","Patient's biological sex.","Patient's biological sex.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","ethnicity","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity]]} {[]}
+"Patient.extension","ethnicity","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity]]} {[]}
 ","Patient's self declared ethnicity.","The patient's professed religious affiliations.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","lastUpdate","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate]]} {[]}
+"Patient.extension","lastUpdate","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate]]} {[]}
 ","Date and time of the last time some information of the patient was updated.","Date and time of the last time some information of the patient was updated.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","isB2C","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C]]} {[]}
+"Patient.extension","isB2C","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C]]} {[]}
 ","Flag indicating if the patient is B2C.","Flag indicating if the patient is B2C.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","isB2B","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B]]} {[]}
+"Patient.extension","isB2B","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B]]} {[]}
 ","Flag indicating if the patient is B2B.","Flag indicating if the patient is B2B.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","deviceOperationalSystem","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem]]} {[]}
+"Patient.extension","deviceOperationalSystem","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem]]} {[]}
 ","Operational system installed in patient's device.","Operational system installed in patient's device.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","idDocumentoFleury","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury]]} {[]}
+"Patient.extension","idDocumentoFleury","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury]]} {[]}
 ","Fleury document's id.","Fleury document's id.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","idClienteFleury","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury]]} {[]}
+"Patient.extension","idClienteFleury","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury]]} {[]}
 ","Fleury client's id.","Fleury client's id.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","idWorkstation","","",0,1,"","","","Extension {[CanonicalType[http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation]]} {[]}
+"Patient.extension","idWorkstation","","",0,1,"","","","Extension {[CanonicalType[http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation]]} {[]}
 ","Workstation's id.","Workstation's id.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

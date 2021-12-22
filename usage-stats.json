@@ -5,98 +5,98 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms",
       "title": "Patient-agreedWithUserTerms",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex",
       "title": "Patient-biologicalSex",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem",
       "title": "Patient-deviceOperationalSystem",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity",
       "title": "Patient-ethnicity",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName",
       "title": "Patient-fathersName",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury",
       "title": "Patient-idClienteFleury",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury",
       "title": "Patient-idDocumentoFleury",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation",
       "title": "Patient-idWorkstation",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B",
       "title": "Patient-isB2B",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C",
       "title": "Patient-isB2C",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate",
       "title": "Patient-lastUpdate",
       "types": [
         "dateTime"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName",
       "title": "Patient-mothersName",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation",
       "title": "Patient-occupation",
       "types": [
         "code"
       ]
     },
     {
-      "url": "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode",
+      "url": "http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode",
       "title": "Patient-prontmedCode",
       "types": [
         "integer"
@@ -106,7 +106,7 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD",
+        "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD",
         "title": "Patient-SaudeiD"
       }
     ]
@@ -154,46 +154,46 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-occupation": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation": [
       "Patient"
     ],
-    "http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode": [
+    "http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode": [
       "Patient"
     ]
   }

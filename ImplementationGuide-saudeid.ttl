@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://saudeid.com.br/fhir/ImplementationGuide/saudeid> a fhir:ImplementationGuide;
+<http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "saudeid"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid.com.br/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://saudeid.com.br/fhir/ImplementationGuide/saudeid"];
+  fhir:ImplementationGuide.url [ fhir:value "http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid"];
   fhir:ImplementationGuide.version [ fhir:value "0.0.2"];
   fhir:ImplementationGuide.name [ fhir:value "ImplementationGuideSaudeiD"];
   fhir:ImplementationGuide.title [ fhir:value "Guia de implementação da Saúde iD"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-20T17:41:14-02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T12:53:46-02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Saude iD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -197,7 +197,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://saudeid.com.br/fhir/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://saudeid-data.github.io/fhir/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -329,7 +329,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Patient-SaudeiD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-SaudeiD" ];
@@ -342,7 +342,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/CodeSystem/CBO>;
+         fhir:link <http://saudeid-data.github.io/fhir/CodeSystem/CBO>;
          fhir:Reference.reference [ fhir:value "CodeSystem/CBO" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO" ];
@@ -355,7 +355,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/ValueSet/CBO-1.0>;
+         fhir:link <http://saudeid-data.github.io/fhir/ValueSet/CBO-1.0>;
          fhir:Reference.reference [ fhir:value "ValueSet/CBO-1.0" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO" ];
@@ -368,14 +368,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/Patient/patient-001>;
+         fhir:link <http://saudeid-data.github.io/fhir/Patient/patient-001>;
          fhir:Reference.reference [ fhir:value "Patient/patient-001" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-example" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemplo de paciente da Saúde iD." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD";
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/Patient-SaudeiD>
+         fhir:value "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD";
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD>
        ]
      ], [
        fhir:index 4;
@@ -385,7 +385,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-agreedWithUserTerms>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-agreedWithUserTerms>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-agreedWithUserTerms" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-agreedWithUserTerms" ];
@@ -398,7 +398,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-biologicalSex>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-biologicalSex>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-biologicalSex" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-biologicalSex" ];
@@ -411,7 +411,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-deviceOperationalSystem>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-deviceOperationalSystem>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-deviceOperationalSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-deviceOperationalSystem" ];
@@ -424,7 +424,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-ethnicity>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-ethnicity>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-ethnicity" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-ethnicity" ];
@@ -437,7 +437,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-fathersName>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-fathersName>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-fathersName" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-fathersName" ];
@@ -450,7 +450,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-idClienteFleury>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-idClienteFleury>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-idClienteFleury" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-idClienteFleury" ];
@@ -463,7 +463,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-idDocumentoFleury>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-idDocumentoFleury>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-idDocumentoFleury" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-idDocumentoFleury" ];
@@ -476,7 +476,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-idWorkstation>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-idWorkstation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-idWorkstation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-idWorkstation" ];
@@ -489,7 +489,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-isB2B>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2B>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-isB2B" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-isB2B" ];
@@ -502,7 +502,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-isB2C>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-isB2C>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-isB2C" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-isB2C" ];
@@ -515,7 +515,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-lastUpdate>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-lastUpdate>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-lastUpdate" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-lastUpdate" ];
@@ -528,7 +528,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-mothersName>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-mothersName>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-mothersName" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-mothersName" ];
@@ -541,7 +541,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-occupation>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-occupation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-occupation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-occupation" ];
@@ -554,7 +554,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://saudeid.com.br/fhir/StructureDefinition/patient-prontmedCode>;
+         fhir:link <http://saudeid-data.github.io/fhir/StructureDefinition/patient-prontmedCode>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/patient-prontmedCode" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient-prontmedCode" ];
@@ -661,7 +661,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://saudeid.com.br/fhir/ImplementationGuide/saudeid.ttl> a owl:Ontology;
+<http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

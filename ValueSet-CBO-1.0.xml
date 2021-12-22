@@ -7,9 +7,9 @@
   </meta>
   <language value="pt-BR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include all codes defined in <a href="CodeSystem-CBO.html"><code>http://saudeid.com.br/fhir/CodeSystem/CBO</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include all codes defined in <a href="CodeSystem-CBO.html"><code>http://saudeid-data.github.io/fhir/CodeSystem/CBO</code></a></li></ul></div>
   </text>
-  <url value="http://saudeid.com.br/fhir/ValueSet/CBO-1.0"/>
+  <url value="http://saudeid-data.github.io/fhir/ValueSet/CBO-1.0"/>
   <version value="0.0.2"/>
   <name value="ValueSetCBO"/>
   <title value="Classificação Brasileira de Ocupações - CBO"/>
@@ -33,7 +33,7 @@
   <immutable value="false"/>
   <compose>
     <include>
-      <system value="http://saudeid.com.br/fhir/CodeSystem/CBO"/>
+      <system value="http://saudeid-data.github.io/fhir/CodeSystem/CBO"/>
       <version value="*"/>
     </include>
   </compose>
