@@ -12,7 +12,7 @@
   <title value="Guia de implementação da Saúde iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-22T16:55:39-02:00"/>
+  <date value="2021-12-22T18:28:53-02:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -220,10 +220,40 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/Appointment-SaudeiD"/>
+      </reference>
+      <name value="Appointment-SaudeiD"/>
+      <description value="Perfil de agendamento da Saúde iD."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Encounter-SaudeiD"/>
+      </reference>
+      <name value="Encounter-SaudeiD"/>
+      <description value="Perfil de encontro/consulta da Saúde iD."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/Patient-SaudeiD"/>
       </reference>
       <name value="Patient-SaudeiD"/>
       <description value="Perfil de paciente da Saúde iD."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Practitioner-SaudeiD"/>
+      </reference>
+      <name value="Practitioner-SaudeiD"/>
+      <description value="Perfil de médico/profissional da Saúde iD."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

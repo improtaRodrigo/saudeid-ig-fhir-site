@@ -104,10 +104,28 @@
     }
   ],
   "profiles": {
+    "Appointment": [
+      {
+        "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Appointment-SaudeiD",
+        "title": "Appointment-SaudeiD"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Encounter-SaudeiD",
+        "title": "Encounter-SaudeiD"
+      }
+    ],
     "Patient": [
       {
         "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD",
         "title": "Patient-SaudeiD"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Practitioner-SaudeiD",
+        "title": "Practitioner-SaudeiD"
       }
     ]
   },

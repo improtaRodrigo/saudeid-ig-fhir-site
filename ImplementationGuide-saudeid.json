@@ -11,7 +11,7 @@
   "title": "Guia de implementação da Saúde iD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-22T16:55:39-02:00",
+  "date": "2021-12-22T18:28:53-02:00",
   "publisher": "Saude iD",
   "contact": [
     {
@@ -350,10 +350,49 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/Appointment-SaudeiD"
+        },
+        "name": "Appointment-SaudeiD",
+        "description": "Perfil de agendamento da Saúde iD."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Encounter-SaudeiD"
+        },
+        "name": "Encounter-SaudeiD",
+        "description": "Perfil de encontro/consulta da Saúde iD."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/Patient-SaudeiD"
         },
         "name": "Patient-SaudeiD",
         "description": "Perfil de paciente da Saúde iD."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Practitioner-SaudeiD"
+        },
+        "name": "Practitioner-SaudeiD",
+        "description": "Perfil de médico/profissional da Saúde iD."
       },
       {
         "extension": [

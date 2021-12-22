@@ -14,11 +14,32 @@
     "name": "ImplementationGuideSaudeiD"
   },
   {
+    "id": "Appointment-SaudeiD",
+    "type": "StructureDefinition",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Appointment-SaudeiD",
+    "version": "0.0.2",
+    "name": "AppointmentSaudeiD"
+  },
+  {
+    "id": "Encounter-SaudeiD",
+    "type": "StructureDefinition",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Encounter-SaudeiD",
+    "version": "0.0.2",
+    "name": "EncounterSaudeiD"
+  },
+  {
     "id": "Patient-SaudeiD",
     "type": "StructureDefinition",
     "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Patient-SaudeiD",
     "version": "0.0.2",
     "name": "PatientSaudeiD"
+  },
+  {
+    "id": "Practitioner-SaudeiD",
+    "type": "StructureDefinition",
+    "url": "http://saudeid-data.github.io/fhir/StructureDefinition/Practitioner-SaudeiD",
+    "version": "0.0.2",
+    "name": "PractitionerSaudeiD"
   },
   {
     "id": "patient-agreedWithUserTerms",

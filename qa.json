@@ -3,10 +3,10 @@
   "name": "ImplementationGuideSaudeiD",
   "package-id": "saudeid",
   "ig-ver": "0.0.2",
-  "date": "Wed, 22 Dec, 2021 16:55:39 -0200",
+  "date": "Wed, 22 Dec, 2021 18:28:53 -0200",
   "errs": 0,
   "warnings": 0,
-  "hints": 39,
+  "hints": 45,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }
