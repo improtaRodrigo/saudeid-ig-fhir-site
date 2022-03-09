@@ -10,7 +10,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CBO.html\"><code>http://saudeid-data.github.io/fhir/CodeSystem/CBO</code></a></li></ul></div>"
   },
   "url": "http://saudeid-data.github.io/fhir/ValueSet/CBO-1.0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "ValueSetCBO",
   "title": "Classificação Brasileira de Ocupações - CBO",
   "status": "active",

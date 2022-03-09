@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1e63c85b-2ea4-4b4c-93c5-8b76c67074e8"/>
+  <id value="95f3695f-54d7-41bc-8ea6-f00e03a0d4e8"/>
   <meta>
-    <lastUpdated value="2021-12-22T18:28:53.532-02:00"/>
+    <lastUpdated value="2022-03-09T09:55:39.257-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -20,7 +20,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
             <p>This value set contains 2611 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CBO.html">Classificação Brasileira de Ocupações - CBO v0.0.2 (CodeSystem)</a>
+              <a href="CodeSystem-CBO.html">Classificação Brasileira de Ocupações - CBO v0.0.3 (CodeSystem)</a>
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-CBO.html">
@@ -20931,7 +20931,7 @@
           </div>
         </text>
         <url value="http://saudeid-data.github.io/fhir/ValueSet/CBO-1.0"/>
-        <version value="0.0.2"/>
+        <version value="0.0.3"/>
         <name value="ValueSetCBO"/>
         <title value="Classificação Brasileira de Ocupações - CBO"/>
         <status value="active"/>
@@ -20953,8 +20953,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:fef0c719-189c-4204-8486-e795c119ba6f"/>
-          <timestamp value="2021-12-22T18:29:35-02:00"/>
+          <identifier value="urn:uuid:6c22d09e-a47a-44fc-b22e-0e84892b8179"/>
+          <timestamp value="2022-03-09T09:56:44-03:00"/>
           <total value="2611"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20962,7 +20962,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://saudeid-data.github.io/fhir/CodeSystem/CBO|0.0.2"/>
+            <valueUri value="http://saudeid-data.github.io/fhir/CodeSystem/CBO|0.0.3"/>
           </parameter>
           <contains>
             <system value="http://saudeid-data.github.io/fhir/CodeSystem/CBO"/>

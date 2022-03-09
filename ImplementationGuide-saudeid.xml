@@ -7,12 +7,12 @@
 </div></div>
   </text>
   <url value="http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid"/>
-  <version value="0.0.2"/>
+  <version value="0.0.3"/>
   <name value="ImplementationGuideSaudeiD"/>
   <title value="Guia de implementação da Saúde iD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-22T18:28:53-02:00"/>
+  <date value="2022-03-09T09:55:39-03:00"/>
   <publisher value="Saude iD"/>
   <contact>
     <telecom>
@@ -210,6 +210,22 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>

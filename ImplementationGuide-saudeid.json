@@ -6,12 +6,12 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ImplementationGuideSaudeiD</h2><p>The official URL for this implementation guide is: </p><pre>http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid</pre><div><p>O Guia de Implementação da Saúde iD e baseado no FHIR na versao R4 e define o minimo de requisitos de conformidade para trocar mensagens com dados de paciente.</p>\n</div></div>"
   },
   "url": "http://saudeid-data.github.io/fhir/ImplementationGuide/saudeid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "ImplementationGuideSaudeiD",
   "title": "Guia de implementação da Saúde iD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-22T18:28:53-02:00",
+  "date": "2022-03-09T09:55:39-03:00",
   "publisher": "Saude iD",
   "contact": [
     {
@@ -332,6 +332,32 @@
           {
             "url": "code",
             "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
           },
           {
             "url": "value",

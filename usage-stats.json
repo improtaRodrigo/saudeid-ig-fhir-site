@@ -1,6 +1,6 @@
 {
   "package": "saudeid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
   "extensions": [
